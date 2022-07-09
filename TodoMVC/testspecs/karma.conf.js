@@ -11,6 +11,12 @@ module.exports = function(config) {
         // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
         frameworks: ['jasmine'],
 
+        plugins: [
+            require('karma-jasmine'),
+            require('karma-jasmine-html-reporter'),
+            require('karma-chrome-launcher')
+        ],
+
 
         // list of files / patterns to load in the browser
         files: [
@@ -36,7 +42,7 @@ module.exports = function(config) {
         // test results reporter to use
         // possible values: 'dots', 'progress'
         // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-        reporters: ['progress'],
+        reporters: ['kjhtml'],
 
 
         // web server port
@@ -61,7 +67,7 @@ module.exports = function(config) {
 
         // start these browsers
         // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-        browsers: ['PhantomJS'],
+        browsers: ['Chrome'],
 
 
         // Continuous Integration mode
