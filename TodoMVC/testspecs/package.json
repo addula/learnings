@@ -16,7 +16,7 @@
     "karma": "~0.10.9",
     "karma-story-reporter": "~0.2.2",
     "grunt-karma": "~0.6.2",
-    "grunt-cli": "~0.1.13",
+    "grunt-cli": "~1.4.3",
     "karma-sauce-launcher": "~0.1.8",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
